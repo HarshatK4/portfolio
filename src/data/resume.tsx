@@ -118,6 +118,18 @@ export const DATA = {
   end: "Present",
   description:
     "Managed full-cycle recruitment including sourcing, screening, and onboarding candidates across tech and non-tech domains. Coordinated with clients to understand requirements, streamlined interview processes, and maintained candidate pipelines. Contributed to employer branding, job postings, and communication strategies to enhance hiring efficiency and team growth.",
+},
+{
+  company: "Event Coordinator & Anchor",
+  badges: [],
+  href: "https://linkedin.com/in/harshatejak",
+  location: " ",
+  title: "Event Hosting & Coordination",
+  logoUrl: "/events.jpeg", // Replace with a real image path if available
+  start: " ",
+  end: " ",
+  description:
+    "Coordinated and hosted numerous cultural and academic events across schools and colleges, including fests, talent shows, and competitions. Anchored large-audience programs with engaging stage presence and smooth transitions. Led backstage operations, managed timing, and resolved real-time issues to ensure event success. As Public Relations Head during a national college fest, conceptualized and executed a high-participation Treasure Hunt event. Recognized for strong communication, leadership, and crowd engagement skills, contributing to memorable and well-received programs.",
 }
     // {
     //   company: "Nvidia",
@@ -324,6 +336,35 @@ export const DATA = {
   video: "", // Optional: Add a link if you have a screen recording
 },
 {
+  title: "1OAK ",
+  href: "https://1oak-socials.vercel.app/",
+  dates: "",
+  active: true,
+  description:
+    "A modern and visually appealing social agency portfolio website designed to showcase services, client brands, and marketing capabilities. Built with animations, responsive layouts, and polished UI/UX elements.",
+  technologies: [
+    "React.js",
+    "TypeScript",
+    "Next.js",
+    "TailwindCSS",
+    "Framer Motion",
+  ],
+  links: [
+    {
+      type: "Website",
+      href: "https://1oak-socials.vercel.app/",
+      icon: <Icons.globe className="size-3" />,
+    },
+    {
+      type: "Source",
+      href: " ", // Update this if repo is private/different
+      icon: <Icons.github className="size-3" />,
+    },
+  ],
+  image: "/10AK.png", // Make sure this image exists in your public/ folder
+  video: "", // Optional: Add a demo link or video if available
+},
+{
   title: "Tic Tac Toe",
   href: "https://tic-tac-toe-mu-umber-17.vercel.app/",
   dates: "Mar 2024",
@@ -350,35 +391,6 @@ export const DATA = {
   ],
   image: "/tictoctoe.png", // Replace with actual path if needed
   video: "", // Optional
-},
-{
-  title: "Shopping Cart",
-  href: "https://shopping-cart-smoky-eta.vercel.app/",
-  dates: "Apr 2024",
-  active: true,
-  description:
-    "A dynamic e-commerce shopping cart application allowing users to browse, add, update, and remove products from their cart. Built with React and React Router, it features quantity control, cart item persistence, and a clean, responsive UI.",
-  technologies: [
-    "React.js",
-    "JavaScript",
-    "CSS3",
-    "React Router",
-    "Vercel",
-  ],
-  links: [
-    {
-      type: "Website",
-      href: "https://shopping-cart-smoky-eta.vercel.app/",
-      icon: <Icons.globe className="size-3" />,
-    },
-    {
-      type: "Source",
-      href: "https://github.com/HarshatK4/shopping-cart",
-      icon: <Icons.github className="size-3" />,
-    },
-  ],
-  image: "/shoppingcart.png", // Optional placeholder
-  video: "", // Optional demo
 },
   ],
   // hackathons: [
